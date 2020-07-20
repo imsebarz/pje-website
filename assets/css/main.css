@@ -2044,8 +2044,8 @@ button:hover,
   z-index: 1;
   top: 0;
   left: 50%;
-  width: 15em;
-  margin-left: -7.5em;
+  width: 10em;
+  margin-left: -5.5em;
 }
 
 #logo a {
@@ -2557,6 +2557,7 @@ button:hover,
     border-radius: 0.35em;
     height: 3em;
     line-height: 3em;
+    width: 5em;
   }
   /* Nav */
   #nav {
@@ -2801,7 +2802,8 @@ button:hover,
     left: 0;
     top: 0;
     margin: 0;
-    width: 100%;
+    width: 80%;
+    margin-left: 1.5em;
   }
   /* Hero */
   #hero {
