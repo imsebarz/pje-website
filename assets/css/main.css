@@ -2006,17 +2006,15 @@ button:hover,
 #header-wrapper {
   position: relative;
   padding: 4em 0 2em 0;
-  background-image: url("images/header.svg");
-  background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-color: #f08c89;
-  background-size: 100% 620%;
-  background-size: 128px 128px, 100% 620%, auto;
-  background-repeat: repeat, no-repeat, no-repeat;
+  background-image: url(/assets/css/images/cool-background.png);
+  background-color: #433d54;
+  background-size: cover;
 }
 
 .homepage #header-wrapper {
   padding: 10em 0 6em 0;
-  background-size: 128px 128px, 100% 100%, auto;
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
 }
 
 #promo-wrapper {
@@ -2044,8 +2042,8 @@ button:hover,
   z-index: 1;
   top: 0;
   left: 50%;
-  width: 10em;
-  margin-left: -4.5em;
+  width: 15em;
+  margin-left: -7.5em;
 }
 
 #logo a {
@@ -2802,8 +2800,7 @@ button:hover,
     left: 0;
     top: 0;
     margin: 0;
-    width: 80%;
-    margin-left: 1.5em;
+    width: 100%;
   }
   /* Hero */
   #hero {
