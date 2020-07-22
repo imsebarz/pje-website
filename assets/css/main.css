@@ -144,7 +144,7 @@ input::-moz-focus-inner {
 }
 
 #sebarz {
-  color: #f35858 !important;
+  color: #ea1f4b !important;
   border: none !important;
 }
 
@@ -214,6 +214,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
   color: #52575c;
 }
 
@@ -246,7 +247,7 @@ a {
 }
 
 a:hover {
-  color: #f35858;
+  color: #ea1f4b;
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 
@@ -328,7 +329,7 @@ header {
 
 header > p {
   display: block;
-  color: #f35858;
+  color: #ea1f4b;
   padding: 0.75em 0 1em 0;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -1720,11 +1721,11 @@ a.image:hover {
 /* List */
 ul {
   list-style: disc;
-  padding-left: 1em;
+  padding-left: 0em;
 }
 
 ul li {
-  padding-left: 0.5em;
+  padding-left: 1.5em;
 }
 
 ol {
@@ -1933,8 +1934,8 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-  color: #f35858;
-  border-color: rgba(243, 88, 88, 0.5);
+  color: #ea1f4b;
+  border-color: #ea1f4b;
 }
 
 /* Icons */
@@ -2005,9 +2006,9 @@ button:hover,
 
 #header-wrapper {
   position: relative;
-  padding: 4em 0 2em 0;
-  background-image: url(./images/BeFunky-photo.jpg);
-  background-color: #433d54;
+  padding: 2em 0 2em 0;
+  background: #6f1291;
+  background: url(./images/para-sebitas.jpg);
   background-size: cover;
 }
 
@@ -2189,7 +2190,8 @@ button:hover,
 
 #hero h2 {
   color: #fff;
-  font-size: 3em;
+  font-size: 4em;
+  margin-top: 0em;
 }
 
 #hero strong {
@@ -2203,12 +2205,14 @@ button:hover,
 #hero p {
   font-size: 1.5em;
   line-height: 1.5em;
+  max-width: 25em;
+  margin: 1em auto 2em auto;
 }
 
 #hero .button {
   background: #fff;
   border-color: rgba(255, 255, 255, 0);
-  color: #f08c89;
+  color: #ea1f4b;
   font-size: 1.25em;
 }
 
