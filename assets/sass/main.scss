@@ -353,6 +353,10 @@ br.clear {
   }
 }
 
+#content {
+  padding: 2em 8em;
+}
+
 /* Sections/Article */
 
 section,
@@ -786,6 +790,37 @@ button,
   background: rgb(111, 18, 145);
   background: url(./images/para-sebitas.jpg);
   background-size: cover;
+  .navabout {
+    padding-right: 3em;
+  }
+}
+.arriba {
+  background: #ffd95c;
+  color: white;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  border-radius: 50%;
+  width: 10vh;
+  height: 10vh;
+  bottom: 5%;
+  right: 5%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.4s ease;
+  visibility: hidden;
+  svg {
+    fill: white;
+  }
+}
+
+.arriba:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .homepage #header-wrapper {
@@ -1192,6 +1227,10 @@ button,
 
   #footer-wrapper {
     padding: 4em 2em 4em 2em;
+  }
+
+  #content {
+    padding: 4em;
   }
 
   /* Header */
