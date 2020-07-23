@@ -305,6 +305,11 @@ br.clear {
   text-align: center;
 }
 
+.feature p {
+  text-align: justify;
+  padding: 1em;
+}
+
 /* Sections/Article */
 section,
 article {

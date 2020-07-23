@@ -347,6 +347,10 @@ br.clear {
 
 .feature {
   text-align: center;
+  p {
+    text-align: justify;
+    padding: 1em;
+  }
 }
 
 /* Sections/Article */
