@@ -1916,8 +1916,8 @@ input[type="submit"],
 input[type="reset"],
 button,
 .button {
-  -webkit-transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-  transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.2s ease;
+  transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.2s ease;
   display: inline-block;
   color: inherit;
   background: none;
